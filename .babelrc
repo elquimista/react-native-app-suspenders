@@ -1,0 +1,14 @@
+{
+  "presets": ["babel-preset-expo"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./config", "./src"]
+      }
+    ],
+    "transform-react-jsx-source",
+    "transform-react-pug",
+    "transform-decorators-legacy"
+  ]
+}

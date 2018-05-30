@@ -1,0 +1,54 @@
+{
+  "name": "react-native-app-suspenders",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "autobind-decorator": "^2.1.0",
+    "expo": "^27.0.1",
+    "lodash": "^4.17.10",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-style-tachyons": "^3.7.0",
+    "react-navigation": "^2.0.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.3.2",
+    "redux-form": "^7.3.0",
+    "redux-persist": "^5.9.1",
+    "redux-persist-transform-filter": "^0.0.16",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest",
+    "lint": "esw . --watch --clear"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-react-pug": "^6.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-react-pug": "^0.3.1",
+    "eslint-watch": "^3.1.4",
+    "jest-expo": "~27.0.0",
+    "prettier": "^1.12.1",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "16.3.1"
+  }
+}

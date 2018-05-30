@@ -1,0 +1,28 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "plugin:react-pug/all", "prettier"],
+  "plugins": ["prettier", "react-pug"],
+  "settings": {
+    "import/resolver": {
+      "babel-module": {
+        "root": ["./config", "./src"]
+      }
+    }
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
+    "class-methods-use-this": "off"
+  }
+}
